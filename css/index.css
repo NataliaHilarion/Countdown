@@ -1,0 +1,13 @@
+@import url(./countdown.css);
+
+:root {
+  --white: #fffffe;
+  --black: #333333;
+  --grey: #1A1A1A;
+}
+
+body {
+  margin: 0;
+  color: var(--black);
+  font-family: 'Roboto Condensed', sans-serif;
+}
