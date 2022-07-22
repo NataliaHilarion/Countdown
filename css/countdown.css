@@ -1,15 +1,11 @@
 .countdown {
   inline-size: 100vw;
-  block-size: 100vh;
+  block-size: 80vh;
   display: flex;
   flex: 1;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to bottom,
-      rgba(0, 0, 0, 0.8) 0%,
-      rgba(0, 0, 0, 0.8) 100%),
-    url("../images/background.jpeg") no-repeat center;
-  background-size: cover;
+
 }
 
 .containerAll {
@@ -26,6 +22,8 @@
   inline-size: 182px;
   block-size: 100%;
   gap: 24px;
+  /* border: 1px solid red; */
+  inline-size: 220px;
 }
 
 .container-number {
@@ -44,6 +42,8 @@
   color: var(--white);
   font-size: 128px;
   text-align: center;
+  /* border: 1px solid green; */
+  inline-size: 190px;
 }
 
 .string {
@@ -61,7 +61,7 @@
   }
 
   .container {
-    inline-size: 100px;
+    inline-size: 120px;
     block-size: 100%;
     gap: 14px;
   }
@@ -70,12 +70,15 @@
     block-size: 80px;
     padding: 20px 10px;
     border-radius: 10px;
+    inline-size: 80%;
   }
 
   .number {
-    inline-size: 90px;
+    inline-size: 130px;
     block-size: 90px;
     font-size: 60px;
+    font-size: 54px;
+    padding-top: 15px;
   }
 
   .string {
@@ -106,6 +109,8 @@
     inline-size: 47.8px;
     block-size: 47.8px;
     font-size: 40px;
+    font-size: 24px;
+    padding-top: 15px;
   }
 
   .string {
