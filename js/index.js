@@ -10,7 +10,7 @@ const transformNumber = (number) => {
 
 const deadline = new Date("Dec 25 2022");
 
-interval = setInterval(()=>{
+function calculate() {
   let currentTime = new Date()
   let remainTime = (deadline.getTime() - currentTime.getTime() + 1000) / 1000
 
@@ -26,12 +26,12 @@ interval = setInterval(()=>{
 
   if (remainTime < 0) {
     console.log("Feliz Navidad!");
-    clearInterval(interval);
+    clearInterval(countDown);
   }
 
-}, 1000)
+}
 
-
+const countDown = setInterval(calculate, 1000)
 
 
 
